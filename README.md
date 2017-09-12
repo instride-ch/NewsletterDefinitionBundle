@@ -20,4 +20,4 @@ There is nothing to configure. Simply add enable and install it, create a newsle
 
 ## Screenshots
 ![Interface](docs/screen1.png)
-![Interface](docs/screen1.png)
+![Interface](docs/screen2.png)
