@@ -1,0 +1,44 @@
+{
+  "name": "w-vision/newsletter-definition",
+  "type": "pimcore-bundle",
+  "license": "GPLv3",
+  "description": "Lets you easily create Newsletter Definitions and re-use them across all your newsletters",
+  "keywords": [
+    "pimcore",
+    "imports",
+    "pimcore-plugin",
+    "pimcore-bundle"
+  ],
+  "homepage": "https://github.com/w-vision/NewsletterDefinition",
+  "authors": [
+    {
+      "name": "w-vision | Woche-Pass AG",
+      "email": "support@w-vision.ch",
+      "homepage": "http://www.w-vision.ch",
+      "role": "Web Development Agency"
+    },
+    {
+      "name": "Dominik Pfaffenbauer",
+      "email": "dominik@pfaffenbauer.at",
+      "homepage": "https://www.pfaffenbauer.at/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "NewsletterDefinitionBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "NewsletterDefinitionBundle\\NewsletterDefinitionBundle"
+      ]
+    },
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}

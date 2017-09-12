@@ -1,0 +1,11 @@
+imports:
+    - { resource: "services/installer.yml" }
+
+services:
+  newsletter_definition.controller.admin:
+    class: NewsletterDefinitionBundle\Controller\NewsletterDefinitionController
+
+  newsletter_definition.sql_renderer:
+    class: NewsletterDefinitionBundle\SqlRenderer\Renderer
+    arguments:
+      - '@doctrine.dbal.default_connection'

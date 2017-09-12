@@ -1,0 +1,19 @@
+newsletter_definition.admin.list:
+  path: /admin/newsletter-definition/list
+  defaults: { _controller: 'newsletter_definition.controller.admin:listAction'}
+
+newsletter_definition.admin.create:
+  path: /admin/newsletter-definition/create
+  defaults: { _controller: 'newsletter_definition.controller.admin:createAction'}
+
+newsletter_definition.admin.delete:
+  path: /admin/newsletter-definition/delete
+  defaults: { _controller: 'newsletter_definition.controller.admin:deleteAction'}
+
+newsletter_definition.admin.fields:
+  path: /admin/newsletter-definition/fields
+  defaults: { _controller: 'newsletter_definition.controller.admin:fieldsAction'}
+
+newsletter_definition.admin.save:
+  path: /admin/newsletter-definition/save
+  defaults: { _controller: 'newsletter_definition.controller.admin:saveAction'}
