@@ -1,4 +1,4 @@
-# Pimcore - Newsletter Definition
+![NewsletterDefinitionBundle](docs/images/github_banner.png "Newsletter Definition Bundle")
 
 This Bundle enhances Pimcore with re-usable, easy-to-create Definitions for Newsletter Filters
 
@@ -19,5 +19,5 @@ This Bundle enhances Pimcore with re-usable, easy-to-create Definitions for News
 There is nothing to configure. Simply add enable and install it, create a newsletter and choose "Newsletter Definition" from the Adapter Source List
 
 ## Screenshots
-![Interface](docs/screen1.png)
-![Interface](docs/screen2.png)
+![Interface](docs/images/screen1.png)
+![Interface](docs/images/screen2.png)
